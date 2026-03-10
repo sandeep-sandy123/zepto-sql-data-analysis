@@ -28,7 +28,7 @@ Total Records: 3,732
 
 ## Tools Used
 
-SQL Server / MySQL  
+postgresql 
 Excel / CSV Dataset  
 GitHub for version control
 
