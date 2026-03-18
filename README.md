@@ -1,14 +1,20 @@
-# zepto-sql-data-analysis
-SQL analysis project exploring Zepto product dataset including pricing, discounts, stock availability and category insights.
+📊 Customer Order & Demand Analysis
+
+🔍 Problem Statement
+
+The business lacked insights into customer purchasing behavior and product demand trends.
 
 # Zepto SQL Data Analysis Project
 
-## Project Overview
-This project analyzes a Zepto product dataset using SQL to extract business insights related to pricing, discounts, stock availability, and product categories.
+🎯 Objective
 
-The goal is to demonstrate SQL skills such as data exploration, filtering, aggregation, and business analysis.
+To analyze order data and identify demand patterns to support inventory and sales decisions.
 
----
+🛠 Tools Used
+
+SQL
+ChatGPT (for query building and data exploration)
+Excel / CSV Dataset
 
 ## Dataset
 Dataset contains product information from Zepto including:
@@ -23,16 +29,6 @@ Dataset contains product information from Zepto including:
 - Quantity
 
 Total Records: 3,732
-
----
-
-## Tools Used
-
-postgresql 
-Excel / CSV Dataset  
-GitHub for version control
-
----
 
 ## Business Questions Solved
 
@@ -53,15 +49,13 @@ SELECT name, mrp, discountPercent
 FROM zepto_products
 ORDER BY discountPercent DESC;
 
----
+💡 Business Recommendations
 
-## Key Insights
+Focus inventory on high-demand products
 
-• Some categories offer significantly higher discounts  
-• Certain products have extremely high stock quantities  
-• Price differences vary widely across categories  
+Optimize supply chain for frequently ordered categories
 
----
+Improve marketing for low-performing products
 
 ## Project Structure
 
