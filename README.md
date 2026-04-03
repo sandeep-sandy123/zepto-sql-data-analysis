@@ -1,67 +1,32 @@
-📊 Customer Order & Demand Analysis
+# Zepto Product Data Analysis — SQL
 
-🔍 Problem Statement
+## Business Question
+Which product categories offer the highest discounts
+and what is the out-of-stock pattern on Zepto?
 
-The business lacked insights into customer purchasing behavior and product demand trends.
-
-# Zepto SQL Data Analysis Project
-
-🎯 Objective
-
-To analyze order data and identify demand patterns to support inventory and sales decisions.
-
-🛠 Tools Used
-
-SQL
-ChatGPT (for query building and data exploration)
-Excel / CSV Dataset
+## Tools Used
+SQL (PostgreSQL/MySQL)
 
 ## Dataset
-Dataset contains product information from Zepto including:
+Zepto product catalogue — 3,732 products
+including pricing, discounts, stock status
 
-- Product Name
-- Category
-- MRP
-- Discount Percentage
-- Discounted Selling Price
-- Weight
-- Stock Availability
-- Quantity
+## SQL Concepts Used
+Aggregation | GROUP BY | ORDER BY |
+WHERE filters | Subqueries
 
-Total Records: 3,732
+## Key Findings
+- Average discount across all products: XX%
+- Out of stock products: XX out of 3,732 (XX%)
+- Highest discounted category: [category name]
+- Most expensive product: [name] at ₹XX MRP
 
-## Business Questions Solved
+## SQL Queries
+View all queries: zepto_Project.sql
 
-1. Top products with highest discount
-2. Average price by category
-3. Out of stock product analysis
-4. Highest priced products
-5. Products with largest available quantity
-6. Discount impact on selling price
-
----
-
-## Example SQL Queries
-
-Example:
-
-SELECT name, mrp, discountPercent
-FROM zepto_products
-ORDER BY discountPercent DESC;
-
-💡 Business Recommendations
-
-Focus inventory on high-demand products
-
-Optimize supply chain for frequently ordered categories
-
-Improve marketing for low-performing products
-
-## Project Structure
-
-dataset → contains raw data  
-sql_queries → SQL queries used for analysis  
-screenshots → output screenshots  
+## Files
+- zepto_Project.sql — all analysis queries
+- zepto_v2.csv — product dataset
 
 ---
 
