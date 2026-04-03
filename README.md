@@ -26,7 +26,7 @@ View all queries: zepto_Project.sql
 
 ## Files
 - zepto_Project.sql — all analysis queries
-- zepto_v2.csv — product dataset
+- [zepto_v2.csv — product dataset](https://github.com/sandeep-sandy123/zepto-sql-data-analysis/blob/main/zepto_v2.csv)
 
 ---
 
